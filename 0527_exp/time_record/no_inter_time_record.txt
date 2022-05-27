@@ -1,0 +1,41 @@
+282	702	260	25	72	19	242	105	96	22		984	1825	10	25	
+321	662	101	22	63	18	176	90	83	18		983	1554	10	18	
+355	556	95	19	63	20	165	95	75	17		911	1460	10	21	
+367	477	90	16	58	15	167	84	72	12		844	1358	10	24	
+357	547	81	23	59	19	167	87	69	12		904	1421	10	24	
+340	546	87	15	58	15	163	91	74	15		886	1404	10	22	
+294	552	87	16	55	14	167	82	75	12		846	1354	10	14	
+370	567	77	14	66	16	167	85	77	10		937	1449	10	16	
+358	598	96	14	57	14	158	87	64	15		956	1461	10	17	
+346	425	83	20	61	14	167	84	75	14		771	1289	10	21	
+348	558	70	11	65	15	169	91	73	13		906	1413	10	17	
+311	505	87	14	56	15	166	86	71	12		816	1323	10	21	
+340	534	89	17	56	17	167	89	71	12		874	1392	10	14	
+370	571	74	15	53	13	152	84	75	13		941	1420	10	25	
+346	543	79	23	75	11	171	81	62	17		889	1408	10	15	
+334	564	76	14	54	14	162	80	66	14		898	1378	10	18	
+326	550	83	16	60	16	174	87	69	9		876	1390	10	19	
+341	432	85	15	58	14	167	90	62	13		773	1277	10	16	
+357	442	84	15	56	12	165	81	75	10		799	1297	10	19	
+352	441	87	10	50	14	165	85	68	10		793	1282	10	18	
+
+=================================
+Total number of testing: 20
+=================================
+Average: Start <-> SECC Discovery finish: 340.75 ms
+Average: SECC Discovery finish <-> Session Initialized: 538.6 ms
+Average: Session Initialized <-> SupportedAppProtocol finish: 93.55 ms
+Average: SupportedAppProtocol finish <-> SessionSetup finish: 16.7 ms
+Average: SessionSetup finish <-> ServiceDiscovery finish: 59.75 ms
+Average: ServiceDiscovery finish <-> PaymentServiceSelection finish: 15.25 ms
+Average: PaymentServiceSelection finish <-> PaymentDetail finish: 169.85 ms
+Average: PaymentDetail finish <-> Authorization finish: 87.2 ms
+Average: Authorization finish <-> ChargeParameterDiscovery finish: 72.6 ms
+Average: ChargeParameterDiscovery finish <-> Start Charging: 13.5 ms
+=================================
+ General Latency 
+=================================
+Average: Start <-> Session Initialized: 879.35 ms
+Average: Start <-> Start Charging: 1407.75 ms
+Average: Start Charging <-> Stop Charging: 10.0 s
+Average: Stop Charging <-> Session Close: 19.2 ms

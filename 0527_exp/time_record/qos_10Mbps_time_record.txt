@@ -1,0 +1,41 @@
+450	933	443	570	136	292	236	294	370	59		1383	3783	12	271	
+446	987	195	151	60	181	254	215	257	155		1433	2901	11	74	
+713	1051	220	44	271	266	317	850	132	119		1764	3983	10	145	
+277	1856	115	91	84	96	357	91	93	39		2133	3099	11	621	
+478	1433	143	134	131	235	223	173	149	63		1911	3162	11	17	
+493	1059	283	44	91	525	551	358	331	407		1552	4142	11	65	
+344	1012	141	99	111	310	202	214	155	129		1356	2717	11	81	
+548	711	148	46	92	192	288	298	269	61		1259	2653	11	108	
+401	831	151	26	98	98	332	171	157	44		1232	2309	10	99	
+533	3119	178	62	91	65	256	90	98	113		3652	4605	12	66	
+446	1194	316	250	252	29	319	131	151	83		1640	3171	11	134	
+513	1141	164	20	254	25	243	146	150	64		1654	2720	11	20	
+482	733	101	183	395	61	575	128	144	93		1215	2895	11	135	
+535	693	563	428	82	109	245	292	178	105		1228	3230	11	61	
+455	1334	257	262	68	92	320	104	114	73		1789	3079	11	60	
+467	874	284	65	321	39	271	166	238	48		1341	2773	10	63	
+471	1077	118	60	232	32	430	159	130	227		1548	2936	11	21	
+436	1072	120	160	81	168	348	314	129	195		1508	3023	12	27	
+433	840	96	76	117	208	403	204	118	107		1273	2602	11	106	
+357	912	256	74	91	96	297	170	123	91		1269	2467	12	102	
+
+=================================
+Total number of testing: 20
+=================================
+Average: Start <-> SECC Discovery finish: 463.9 ms
+Average: SECC Discovery finish <-> Session Initialized: 1143.1 ms
+Average: Session Initialized <-> SupportedAppProtocol finish: 214.6 ms
+Average: SupportedAppProtocol finish <-> SessionSetup finish: 142.25 ms
+Average: SessionSetup finish <-> ServiceDiscovery finish: 152.9 ms
+Average: ServiceDiscovery finish <-> PaymentServiceSelection finish: 155.95 ms
+Average: PaymentServiceSelection finish <-> PaymentDetail finish: 323.35 ms
+Average: PaymentDetail finish <-> Authorization finish: 228.4 ms
+Average: Authorization finish <-> ChargeParameterDiscovery finish: 174.3 ms
+Average: ChargeParameterDiscovery finish <-> Start Charging: 113.75 ms
+=================================
+ General Latency 
+=================================
+Average: Start <-> Session Initialized: 1607.0 ms
+Average: Start <-> Start Charging: 3112.5 ms
+Average: Start Charging <-> Stop Charging: 11.05 s
+Average: Stop Charging <-> Session Close: 113.8 ms
