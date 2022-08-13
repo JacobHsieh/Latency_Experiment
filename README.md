@@ -15,6 +15,18 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
 
   * <a href="0420_exp/time_record/"> 0420_exp/time_record/ </a>: Result time logs in separate layers.
     * Definition: Each row represents a testing round, and normally, there will be 20 testing rounds (rows) if no timeout occurs. Column 0 to column 9 represent specific stages, and column 10 and column 11 represent general stages. Detail definition of stages please refer to the paper. It is worth noting that column 10 = column 0 + column 1, and column 11 = sum of column 0 to column 9. Column 12 and column 13 are not used in the paper. Column 12 represents the duration of the charging loop, which is related to the configuration (_ev.initial.battery.status_ in the config. file) we set at the beginning. Column 13 represents the duration from exiting the charging loop to session close.
+    * Application layer time record:
+      * <a href="0420_exp/time_record/no_interference"> no_interference </a>
+      * <a href="0420_exp/time_record/2_interference"> 2_interference </a>
+      * <a href="0420_exp/time_record/4_interference"> 4_interference </a>
+    * Transport layer time record:
+      * <a href="0420_exp/time_record/no_interference_TCP"> no_interference_TCP </a>
+      * <a href="0420_exp/time_record/2_interference_TCP"> 2_interference_TCP </a>
+      * <a href="0420_exp/time_record/4_interference_TCP"> 4_interference_TCP </a>
+    * Application layer time record - Transport layer time record:
+      * <a href="0420_exp/time_record/no_interference_App_minus_TCP"> no_interference_App_minus_TCP </a>
+      * <a href="0420_exp/time_record/2_interference_App_minus_TCP"> 2_interference_App_minus_TCP </a>
+      * <a href="0420_exp/time_record/4_interference_App_minus_TCP"> 4_interference_App_minus_TCP </a>
   * 
 
 
