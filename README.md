@@ -11,7 +11,7 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
 
 ## Experiment-1
 * <a href="0420_exp/"> 0420_exp </a>: Latency experiment above the transport layer.
-  * <a href="0420_exp/csv/"> 0420_exp/csv/ </a>: Wireshark filtered TCP and UDP packet in csv in three scenarios.
+  * <a href="0420_exp/csv/"> 0420_exp/csv/ </a>: Wireshark filtered TCP and UDP packets in csv in three scenarios.
     * <a href="0420_exp/csv/no_interfere_evcc_UDP_TCP.csv"> no_interfere_evcc_UDP_TCP.csv </a>
     * <a href="0420_exp/csv/2_interfere_evcc_UDP_TCP.csv"> 2_interfere_evcc_UDP_TCP.csv </a>
     * <a href="0420_exp/csv/4_interfere_evcc_UDP_TCP.csv"> 4_interfere_evcc_UDP_TCP.csv </a>
@@ -45,12 +45,17 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
 ## Experiment-2
 * <a href="0612_exp/"> 0612_exp </a>: Latency experiment including the data link layer and 802.11 AC configurations.
   * <a href="0612_exp/csv/"> 0612_exp/csv/ </a>: 
-    * <a href="0612_exp/csv/TCP/"> 0612_exp/csv/TCP/ </a>: Wireshark filtered TCP and UDP packet in csv.
-    * <a href="0612_exp/csv/DataLink/"> 0612_exp/csv/DataLink/ </a>: Wireshark filtered Data Link layer packet in csv. Each directory contains _evcc_send.csv_, _secc_send.csv_, and _evcc_blockack.csv_. There might be lost packets in the 802.11 sniffing pcap file.
+    * <a href="0612_exp/csv/TCP/"> 0612_exp/csv/TCP/ </a>: Wireshark filtered TCP and UDP packets in csv.
+    * <a href="0612_exp/csv/DataLink/"> 0612_exp/csv/DataLink/ </a>: Wireshark filtered Data Link layer packets in csv. Each directory contains _evcc_send.csv_, _secc_send.csv_, and _evcc_blockack.csv_. There might be lost packets in the 802.11 sniffing pcap files. **no_interf_VI and no_interf_VO are not calculated in the data link layer, and not included in the paper.**
       * <a href="0612_exp/csv/DataLink/no_interf/"> 0612_exp/csv/DataLink/no_interf/ </a>
       * <a href="0612_exp/csv/DataLink/max_interf/"> 0612_exp/csv/DataLink/max_interf/ </a>
       * <a href="0612_exp/csv/DataLink/max_interf_VI/"> 0612_exp/csv/DataLink/max_interf_VI/ </a>
       * <a href="0612_exp/csv/DataLink/max_interf_VO/"> 0612_exp/csv/DataLink/max_interf_VO/ </a>
+
+  * <a href="0612_exp/time_record/"> 0612_exp/time_record/ </a>: Result time logs in separate layers.
+    * Application layer:
+    * Transport layer:
+    * Data link layer:
 
 ## Packet Loss Rate Calculation
 * <a href="packetloss_calc/"> packetloss_calc </a>: Calculate packet loss rate of the 0420 and 0612 experiments.
