@@ -96,7 +96,15 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
       * <a href="0612_exp/pcap_TCP_csv_processing_max_VI.ipynb"> pcap_TCP_csv_processing_max_VI.ipynb </a>
       * <a href="0612_exp/pcap_TCP_csv_processing_max_VO.ipynb"> pcap_TCP_csv_processing_max_VO.ipynb </a>
     * Data link layer – pcap_80211_csv_processing:
-    *  <a href="0612_exp/pcap_csv_analysis_4_interference.ipynb"> pcap_csv_analysis_4_interference.ipynb </a>
+      * Procedures:
+        * Processing _evcc_blockack.csv_, to calculate the time EVCC receives the SECC's response later.
+        * Processing _evcc_send.csv_. Use SDP request data length to divide each testing round. Use 802.11 packet data length and packet information to divide each stage. Calculate the time EVCC sends the request packet.
+        * Processing _secc_send.csv_. Use SDP response data length to divide each testing round. Use 802.11 packet data length and packet information to divide each stage. Combine with _evcc_blockack.csv_ to calculate the time EVCC receives the response packet.
+        * There might be lost packets in the 802.11 sniffing pcap files. Manually add the time back according to the captured pcap files. If there are lost packets in _secc_send.csv_, use average block ack latency to calculate.
+      * <a href="0612_exp/pcap_80211_csv_processing_no.ipynb"> pcap_80211_csv_processing_no.ipynb </a>
+      * <a href="0612_exp/pcap_80211_csv_processing_max.ipynb"> pcap_80211_csv_processing_max.ipynb </a>
+      * <a href="0612_exp/pcap_80211_csv_processing_max_VI.ipynb"> pcap_80211_csv_processing_max_VI.ipynb </a>
+      * <a href="0612_exp/pcap_80211_csv_processing_max_VO.ipynb"> pcap_80211_csv_processing_max_VO.ipynb </a>
 
 ## Packet Loss Rate Calculation
 * <a href="packetloss_calc/"> packetloss_calc </a>: Calculate packet loss rate of the 0420 and 0612 experiments.
