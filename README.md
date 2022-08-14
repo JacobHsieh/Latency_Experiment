@@ -60,6 +60,27 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
         * <a href="0612_exp/time_record/no_evcc_TCP_UDP.txt"> no_evcc_TCP_UDP.txt </a>
       * Data link layer:
         * <a href="0612_exp/time_record/no_interf_80211.txt"> no_interf_80211.txt </a>
+    * **Max Interference**
+      * Application layer:
+        * <a href="0612_exp/time_record/max_interf_time_record_raw.txt"> max_interf_time_record_raw.txt </a>
+      * Transport layer:
+        * <a href="0612_exp/time_record/max_evcc_TCP_UDP.txt"> max_evcc_TCP_UDP.txt </a>
+      * Data link layer:
+        * <a href="0612_exp/time_record/max_interf_80211.txt"> max_interf_80211.txt </a>
+    * **Max Interference-VI**
+      * Application layer:
+        * <a href="0612_exp/time_record/max_interf_VI_time_record_raw.txt"> max_interf_VI_time_record_raw.txt </a>
+      * Transport layer:
+        * <a href="0612_exp/time_record/max_VI_evcc_TCP_UDP.txt"> max_VI_evcc_TCP_UDP.txt </a>
+      * Data link layer:
+        * <a href="0612_exp/time_record/max_VI_80211.txt"> max_VI_80211.txt </a>
+    * **Max Interference-VO**
+      * Application layer:
+        * <a href="0612_exp/time_record/max_interf_VO_time_record_raw.txt"> max_interf_VO_time_record_raw.txt </a>
+      * Transport layer:
+        * <a href="0612_exp/time_record/max_VO_evcc_TCP_UDP.txt"> max_VO_evcc_TCP_UDP.txt </a>
+      * Data link layer:
+        * <a href="0612_exp/time_record/max_VO_80211.txt"> max_VO_80211.txt </a>
     * Not included in the paper:
       * <a href="0612_exp/time_record/no_interf_VI_time_record_raw.txt"> no_interf_VI_time_record_raw.txt </a>
       * <a href="0612_exp/time_record/no_interf_VO_time_record_raw.txt"> no_interf_VO_time_record_raw.txt </a>
