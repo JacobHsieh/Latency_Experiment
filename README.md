@@ -53,9 +53,18 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
       * <a href="0612_exp/csv/DataLink/max_interf_VO/"> 0612_exp/csv/DataLink/max_interf_VO/ </a>
 
   * <a href="0612_exp/time_record/"> 0612_exp/time_record/ </a>: Result time logs in separate layers.
-    * Application layer:
-    * Transport layer:
-    * Data link layer:
+    * **No Interference**
+      * Application layer:
+        * <a href="0612_exp/time_record/no_interf_time_record_raw.txt"> no_interf_time_record_raw.txt </a>
+      * Transport layer:
+        * <a href="0612_exp/time_record/no_evcc_TCP_UDP.txt"> no_evcc_TCP_UDP.txt </a>
+      * Data link layer:
+        * <a href="0612_exp/time_record/no_interf_80211.txt"> no_interf_80211.txt </a>
+    * Not included in the paper:
+      * <a href="0612_exp/time_record/no_interf_VI_time_record_raw.txt"> no_interf_VI_time_record_raw.txt </a>
+      * <a href="0612_exp/time_record/no_interf_VO_time_record_raw.txt"> no_interf_VO_time_record_raw.txt </a>
+      * <a href="0612_exp/time_record/no_VI_evcc_TCP_UDP.txt"> no_VI_evcc_TCP_UDP.txt </a>
+      * <a href="0612_exp/time_record/no_VO_evcc_TCP_UDP.txt"> no_VO_evcc_TCP_UDP.txt </a>
 
 ## Packet Loss Rate Calculation
 * <a href="packetloss_calc/"> packetloss_calc </a>: Calculate packet loss rate of the 0420 and 0612 experiments.
