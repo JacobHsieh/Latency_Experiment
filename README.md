@@ -40,5 +40,6 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
     * <a href="0420_exp/latency_plot_TCP_added.ipynb"> latency_plot_TCP_added.ipynb </a>: This is the main plotting program. Plot the application and the transport layers latency in three scenarios, application layer vs. transport layer, each stage latency normalized to timeout value, general latency, and the cdf of each stage.
 
 * <a href="0612_exp/"> 0612_exp </a>: Latency experiment including the data link layer and 802.11 AC configurations.
+* <a href="packetloss_calc/"> packetloss_calc </a>: Calculate packet loss rate of the 0420 and 0612 experiments.
 * <a href="0429_exp/"> 0429_exp </a>: Latency experiment including the data link layer, not included in the paper.
 * <a href="0527_exp/"> 0527_exp </a>: Latency experiment including the data link layer and TOTOLINK N300RT QoS setting, not included in the paper.
