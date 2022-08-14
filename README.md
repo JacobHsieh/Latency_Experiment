@@ -78,7 +78,7 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
       * Application layer:
         * <a href="0612_exp/time_record/max_interf_VO_time_record_raw.txt"> max_interf_VO_time_record_raw.txt </a>
       * Transport layer:
-        * <a href="0612_exp/time_record/max_VO_evcc_TCP_UDP.txt"> max_VO_evcc_TCP_UDP.txt </a>
+        * <a href="0612_exp/time_record/max_evcc_VO_TCP_UDP.txt"> max_evcc_VO_TCP_UDP.txt </a>
       * Data link layer:
         * <a href="0612_exp/time_record/max_VO_80211.txt"> max_VO_80211.txt </a>
     * Not included in the paper:
