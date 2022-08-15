@@ -106,6 +106,9 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
       * <a href="0612_exp/pcap_80211_csv_processing_max_VI.ipynb"> pcap_80211_csv_processing_max_VI.ipynb </a>
       * <a href="0612_exp/pcap_80211_csv_processing_max_VO.ipynb"> pcap_80211_csv_processing_max_VO.ipynb </a>
     * <a href="0612_exp/retry_retransmission_80211_counting.ipynb"> retry_retransmission_80211_counting.ipynb </a>: 802.11 retry rate counting. No explicit difference. Not included in the paper.
+  * Plotting:
+    * <a href="0612_exp/latency_plot_80211_TCP_App.ipynb"> latency_plot_80211_TCP_App.ipynb </a>: This is the main plotting program of the experiment-2. Plot the round trip latency in the application, transport, and data link layers. Also plot the latency difference in separate layers in each scenario, and the general latency comparison.
+
 ## Packet Loss Rate Calculation
 * <a href="packetloss_calc/"> packetloss_calc </a>: Calculate packet loss rate of the 0420 and 0612 experiments.
 
