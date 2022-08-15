@@ -112,9 +112,9 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
 ## Packet Loss Rate Calculation
 * Preprocessing:
   * <a href="packetloss_calc/dump_data.sh"> dump_data.sh </a>: Execution procedures are as the followings.
-    * Save the pcap files of EVCC and SECC as _evcc.pcapng_ and _secc.pcapng_ **in the same directory**. These are the input of the shell script.
-    * Save the MAC addresses of EVCC and SECC in _evccMAC.txt_ and _seccMAC.txt_. The shell script automatically read the txt files, and use the MAC addresses and other filters to filter the traffic.
-    * The result is saved in the **csv/** directory as **evcc_send.csv**, **evcc_receive.csv**, **secc_send.csv**, and **secc_receive.csv**.
+    * Save the pcap files of EVCC and SECC as _evcc.pcapng_ and _secc.pcapng_ **in the same directory**. These are the inputs of the shell script.
+    * Save the MAC addresses of EVCC and SECC in <a href="packetloss_calc/evccMAC.txt"> **evccMAC.txt** </a> and <a href="packetloss_calc/seccMAC.txt"> **seccMAC.txt** </a>. The shell script automatically reads the txt files, and uses the MAC addresses and other filters to filter the traffic.
+    * The result is saved in the <a href="packetloss_calc/csv/"> **csv/** </a> directory as **evcc_send.csv**, **evcc_receive.csv**, **secc_send.csv**, and **secc_receive.csv**.
 * Processing:
 * <a href="packetloss_calc/"> packetloss_calc </a>: Calculate packet loss rate of the 0420 and 0612 experiments.
 
