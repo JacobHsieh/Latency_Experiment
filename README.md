@@ -110,6 +110,12 @@ This is the ISO 15118 wireless communication latency experiment. The objective i
     * <a href="0612_exp/latency_plot_80211_TCP_App.ipynb"> latency_plot_80211_TCP_App.ipynb </a>: This is the main plotting program of the experiment-2. Plot the round trip latency in the application, transport, and data link layers. Also plot the latency difference in separate layers in each scenario, and the general latency comparison.
 
 ## Packet Loss Rate Calculation
+* Preprocessing:
+  * <a href="packetloss_calc/dump_data.sh"> dump_data.sh </a>: Execution procedures are as the followings.
+    * Save the pcap files of EVCC and SECC as _evcc.pcapng_ and _secc.pcapng_ **in the same directory**. These are the input of the shell script.
+    * Save the MAC addresses of EVCC and SECC in _evccMAC.txt_ and _seccMAC.txt_. The shell script automatically read the txt files, and use the MAC addresses and other filters to filter the traffic.
+    * The result is saved in the **csv/** directory as **evcc_send.csv**, **evcc_receive.csv**, **secc_send.csv**, and **secc_receive.csv**.
+* Processing:
 * <a href="packetloss_calc/"> packetloss_calc </a>: Calculate packet loss rate of the 0420 and 0612 experiments.
 
 ## Others
